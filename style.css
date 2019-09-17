@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 40px;
+}
+.navbar-nav li{
+    padding: 0px 10px;
+
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{ 
+    color: #007bff!important;
+}
+
+ .navbar{
+    background:#fff;
+}
+.navbar-toggler
+    {border:none!important;}
+.nav-link{
+    color:#555;
+    font-weight: 600;
+    font-size:20px;
+    
+}    
+#slider{
+    width:100%;
+}
+.carousel-caption{
+    top:50%;
+    transfrom:translateY(-50%);
+    bottom:initial!important;
+    
+}
+#about 
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+
+}
+#about  .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#about .about-content
+{
+    padding-top: 20px;
+}
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar{
+    border-radius:16px}
+    .progress{
+        border-radius: 16px;
+    }
+ #activites
+ {
+     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/backdrop1.jpg);
+     background-size: cover;
+     background-position: center;
+     color:#efefef;
+    background-attachment: fixed;
+    padding-top: 50px;padding-bottom: 50px;
+    }     
+ #activites h1{
+     text-align: center;
+     color: #efefef;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }   
+ #activites h1::after{
+     content:'';
+     background: #efefef;
+     display: block;
+     height: 3px;
+     width: 170px;
+     margin:20px auto 5px;
+ }
+ .activites
+ {margin-top: 40px;
+}
+.icon{
+    font-size: 60px;
+    margin: 20px auto;
+   padding:25px;
+    height: 120px;
+    width: 120px;
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+.activites p{
+    font-size: 14px;
+    margin-top: 20px;
+    color:#ccc;
+}
+.activites .col-md-3:hover{
+    background:#007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#about_me
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#555;
+
+
+}
+#about_me h1{
+    text-align: center;
+    padding-bottom:10px;
+
+
+}
+#about_me h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+}
