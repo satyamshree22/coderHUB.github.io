@@ -8,9 +8,14 @@
     top:0;
     z-index: 10;
 }
-.navbar-brand img{
-    height: 40px;
-    padding-left: 40px;
+.brand{font-size: 40px;
+    padding-left: 25px;
+    color: red;
+
+    
+}
+.navbar-brand b{
+    color: red;
 }
 .navbar-nav li{
     padding: 0px 10px;
