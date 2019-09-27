@@ -55,17 +55,27 @@
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
+    text-align: center;
+    
 
 }
-#about  .btn
-{
-    margin-top: 20px;
-    margin-bottom: 30px;
+
+
+
 }
+ #about h1::after{content: '';
+    background: #555;
+    display: block;
+    height:3px;
+    width:310px;
+    margin:20px auto 5px;}
+
+    
 #about .about-content
 {
     padding-top: 20px;
 }
+
 .skills-bar p{
     margin-bottom: 6px;
     font-weight: 600;
