@@ -60,9 +60,6 @@
 
 }
 
-
-
-}
  #about h1::after{content: '';
     background: #555;
     display: block;
